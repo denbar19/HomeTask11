@@ -108,7 +108,7 @@
       <workItem from="1610388452918" duration="8000" />
       <workItem from="1610388732285" duration="2249000" />
       <workItem from="1610403141628" duration="367000" />
-      <workItem from="1610656502242" duration="1830000" />
+      <workItem from="1610656502242" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1610403423712</created>
@@ -157,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="right using of exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="right using of exception" />
+    <MESSAGE value="HT10_3 fixes exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="HT10_3 fixes exceptions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="175" key="#Inspections" timestamp="1610382455164">
@@ -176,10 +177,10 @@
       <screen x="0" y="0" width="1280" height="994" />
     </state>
     <state x="363" y="388" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.994@0.0.1280.994" timestamp="1610371569041" />
-    <state x="345" y="115" key="CommitChangelistDialog2" timestamp="1610656988594">
+    <state x="632" y="87" key="CommitChangelistDialog2" timestamp="1610658376207">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="345" y="115" key="CommitChangelistDialog2/0.0.1920.1050/1920.54.1280.994@0.0.1920.1050" timestamp="1610656988594" />
+    <state x="632" y="87" key="CommitChangelistDialog2/0.0.1920.1050/1920.54.1280.994@0.0.1920.1050" timestamp="1610658376207" />
     <state width="1394" height="188" key="GridCell.Tab.0.bottom" timestamp="1610658329832">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -232,10 +233,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="312" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.54.1280.994@0.0.1920.1050" timestamp="1610656992859" />
-    <state x="529" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610657046086">
+    <state x="529" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610658350177">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="529" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.54.1280.994@0.0.1920.1050" timestamp="1610657046086" />
+    <state x="529" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.54.1280.994@0.0.1920.1050" timestamp="1610658350177" />
     <state x="296" y="229" key="run.anything.popup" timestamp="1610365859639">
       <screen x="0" y="0" width="1280" height="994" />
     </state>
