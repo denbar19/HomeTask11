@@ -4,36 +4,45 @@ import com.denisenko.HT10_3.DivideByZeroException;
 
 public class Main {
 
-    public static void main(String[] args) throws DivideByZeroException, ArrayIndexOutOfBoundsException {
+    public static void main(String[] args) {
 
-        double[] array = {1, 2, 0};
+        int[] array = {4, 2, 1, 0};
         int i1 = 1;
-        int i2 = 2;
-        double res;
+        int i2 = 5;
+        int res;
         try {
-            res = array[i1] / array[i2];
+            res = divide(array[i1], array[i2]);
             System.out.println(res);
         } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
             i1--;
             i2--;
             try {
-                res = array[i1] / array[i2];
+                res = divide(array[i1], array[i2]);
                 System.out.println(res);
             } catch (ArrayIndexOutOfBoundsException ex) {
-                throw new ArrayIndexOutOfBoundsException();
+                System.out.println(ex.getMessage());
             } catch (DivideByZeroException ex) {
-                throw new DivideByZeroException("don't divide by 0");
+                System.out.println("Dividing by = " + ex.getMessage());
             }
         } catch (DivideByZeroException e) {
+            System.out.println(e.getMessage());
             i1--;
             i2--;
             try {
-                res = array[i1] / array[i2];
+                res = divide(array[i1], array[i2]);
                 System.out.println(res);
             } catch (DivideByZeroException ex) {
-                throw new DivideByZeroException("array[i2]");
+                System.out.println("Answer  = " + ex.getMessage() + "-> Exception is handled");
             }
 
         }
+    }
+
+    public static int divide(int a, int b) throws DivideByZeroException, ArrayIndexOutOfBoundsException {
+        if (b == 0) {
+            throw new DivideByZeroException(String.valueOf(b));
+        }
+        return a / b;
     }
 }
